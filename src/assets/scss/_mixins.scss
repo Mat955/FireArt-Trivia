@@ -1,0 +1,52 @@
+@mixin form-select-input-start() {
+  display: block;
+      width: 70%;
+      height: 4rem;
+      border: 1px solid #ffffff;
+      box-shadow: 6px 6px 13px -1px rgba(23,21,92,0.06);
+      border-radius: 10px;
+      padding-left: 1rem;
+      color: white;
+      background-color: transparent;
+      margin-top: 1rem;
+      font-size: 18px;
+      font-weight: 500;
+      outline: none;
+      box-sizing: border-box;
+}
+
+@mixin button() {
+  margin-bottom: 37px;
+  padding: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 14px;
+  font-size: 21px;
+  width: 50%;
+  line-height: 150%;
+  text-align: center;
+  border: none;
+  font-weight: 700;
+  transition: .5s ease-in-out;
+
+  &:hover {
+    background: linear-gradient(90deg, #f59363 0%, #f0484e 100%);
+  }
+}
+
+@mixin resultsBox() {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 6px 30px;
+  margin-top: 1.25rem;
+  border-radius: 25px;
+}
+
+@mixin centerItem() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

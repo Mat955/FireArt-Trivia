@@ -1,0 +1,51 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.results {
+  @include resultsBox();
+  background-color: white;
+
+  @media(max-width: 499px) {
+    padding: 20px 30px;
+  }
+
+  h4 {
+    color: $results-font-color;
+    margin: 25px 10px;
+    text-align: left;
+
+    @media(max-width: 499px) {
+      margin: 0;
+      font-size: 12px;
+    }
+  }
+  .results__question {
+    width: 90%;
+  }
+}
+
+.results_wrong {
+  @include resultsBox();
+  color: $results-font-color;
+  background-color: $color-background-wrong;
+
+  @media(max-width: 499px) {
+    padding: 20px 30px;
+  }
+
+  h4 {
+    color: $results-font-color;
+    margin: 25px 10px;
+    padding-right: 50px;
+
+    @media(max-width: 499px) {
+      margin: 0;
+      font-size: 12px;
+      padding-right: 0;
+    }
+  }
+
+  .results__question {
+    width: 90%;
+  }
+}

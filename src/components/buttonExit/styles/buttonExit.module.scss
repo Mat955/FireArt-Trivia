@@ -1,0 +1,16 @@
+.game__button_exit {
+  z-index: 1;
+  position: absolute;
+  right: 10%;
+  top: 50px;
+  
+  button {
+    background-color: transparent;
+    border: none;
+  }
+  
+  @media(max-width: 499px) {
+    top: 20px;
+    right: 3%;
+  }
+}

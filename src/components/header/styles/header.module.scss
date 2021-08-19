@@ -1,0 +1,31 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.header {
+  @include centerItem();
+  margin-top: 10%;
+
+  @media(max-width: 499px) {
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 46px;
+    line-height: 57px;
+    font-family: $body-font;
+
+    @media(max-width: 499px) {
+      font-size: 35px;
+    }
+  }
+
+  .header__logo {
+    width: 60%;
+    margin: 1em;
+
+    @media(max-width: 499px) {
+      width: 80%;
+    }
+  }
+}
+
