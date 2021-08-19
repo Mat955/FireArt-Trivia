@@ -1,8 +1,8 @@
 # Trivia Quiz APP
 
-Open [Trivia app](#) with your browser to see my Trivia Challenge APP.
+Open [`my-trivia-app`](https://fireart-trivia.vercel.app/) with your browser to see my Trivia Challenge APP for FireART Studio.
 
-This is project bootstrapped with [`create-react-app`](https://github.com/facebook/create-react-app) && [`Template TypeScript](https://www.typescriptlang.org/)
+This is project bootstrapped with [`create-react-app`](https://github.com/facebook/create-react-app) && [`Template-TypeScript`](https://www.typescriptlang.org/)
 
 ## Getting Started
 
