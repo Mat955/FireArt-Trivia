@@ -20,7 +20,7 @@ You can start editing the page by modifying `pages/`, `components`, `containers`
 
 ## Technologies in Project:
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about my tech project, take a look at the following resources:
 
 - [React](https://github.com/facebook/react) - React is a JavaScript library for building user interfaces.
 - [Redux](https://github.com/reduxjs/redux) - Redux is a predictable state container for JavaScript apps.
